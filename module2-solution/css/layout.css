@@ -1,0 +1,71 @@
+.heading {
+	color: darkred;
+	text-align: center;
+	font-size: 1.75em;
+}
+@media(min-width: 992px) {
+	.col-lg-4 {	
+		padding: 20px;
+	    width: 33.33%;
+	    position: relative;
+	    float: left;
+	    box-sizing: border-box;
+	}
+
+}
+@media(min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		padding: 20px;
+	    width: 50%;
+	    box-sizing: border-box;
+	    position: relative;
+	    float: left;
+	}
+}
+@media(max-width: 767px) {
+	.col-sm-12 {		
+		padding: 20px;
+	    width: 100%;
+	    position: relative;
+	    float: left;
+	    box-sizing: border-box;
+	}
+}
+.menu {
+	
+}
+.item {
+	text-align: center;
+	color: black;
+	background-color: pink;
+	font-size: 1.25em;
+	width: 150px;
+	position: relative;
+	float: right;
+	margin: 0px;
+	border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.itemDesc {
+	text-align: left;
+	color: black;
+	font-size: 1.25em;
+	position: relative;
+	float: left;	
+	padding: 10px;
+}
+.redBackground {
+	background-color: indianred;
+	color: white;
+}
+.yellowBackground {
+	background-color: lightyellow;
+}
+.box {
+    box-sizing: border-box;	
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	background-color: grey;
+    height: 200px;
+}
