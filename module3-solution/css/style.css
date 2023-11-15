@@ -1,0 +1,52 @@
+.mynavbar {
+  background-color: skyblue;
+  margin-bottom: 0px;
+}
+#bs-example-navbar-collapse-1 .menu-category {
+  background-color: cornsilk;
+  border-bottom: 1px solid burlywood;
+  text-align: center;
+}
+.my-page-header {
+  margin: 0px;
+  border-bottom: 0px;
+  color: darkmagenta;
+  font-weight: 700;
+}
+#main-menu-container{
+  background-color: aliceblue;
+  height: 800px;
+}
+.my-tile {
+  padding: 1px 10px 10px 10px;
+  background-color: dodgerblue;
+  color: cornsilk;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+#my-navbar-brand {
+  color: darkmagenta;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 0 black;
+}
+#bs-example-navbar-collapse-1 .category-text {  
+  color: dodgerblue;
+}
+#bs-example-navbar-collapse-1 a:hover {
+  background-color: aliceblue;
+}
+.my-row {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.my-row section:hover {
+  background-color: navy;
+}
+.move-top {
+  color: aliceblue;
+  font-weight: bold;
+}
+.my-tile > a:hover{
+  color: cornsilk;
+}
